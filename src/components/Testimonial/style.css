@@ -1,0 +1,89 @@
+.testimonial {
+	--background-color-primary: #f2f7ff;
+	--color-primary: #2c2e30;
+	--font-family: "Playfair Display", sans-serif;
+	--font-family-2: "Poppins", sans-serif;
+	--font-family-3: "Inter", sans-serif;
+}
+
+.testimonial {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 3rem 6rem;
+	gap: 0.5625rem 13.3125rem;
+	background-color: var(--background-color-primary);
+	width: 100%;
+
+	h1 {
+		width: 29.375rem;
+		font-family: var(--font-family);
+		font-size: 3rem;
+		letter-spacing: 0.0313rem;
+		color: var(--color-primary);
+		text-align: center;
+		margin-bottom: 5.625rem;
+		margin-left: 11.25rem;
+	}
+}
+.testimonials {
+	display: flex;
+	align-items: center;
+	gap: 0.625rem;
+	width: 100%;
+	height: 19rem;
+	margin-left: 11.25rem;
+}
+
+.cards {
+	display: grid;
+	grid-gap: 0.625rem;
+	justify-items: center;
+}
+.card {
+	display: grid;
+	width: 33.75rem;
+	height: 14.5rem;
+	padding: 1.875rem;
+	background: #ffffff;
+	box-shadow: 0rem 0.625rem 1.25rem rgba(41, 41, 42, 0.07);
+
+	h2 {
+		font-family: var(--font-family-2);
+		font-weight: 500;
+		font-size: 1.125rem;
+		line-height: 1.75rem;
+		text-align: center;
+		color: #151617;
+	}
+
+	p {
+		font-family: var(--font-family-2);
+		font-size: 0.875rem;
+		line-height: 1.5rem;
+		text-align: center;
+		letter-spacing: 0.0313rem;
+		color: #4f4f4f;
+	}
+}
+
+.client-details {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+}
+
+.person-details {
+	h3 {
+		font-family: var(--font-family-3);
+		font-size: 1.125rem;
+		line-height: 1.75rem;
+		color: #151617;
+	}
+
+	span {
+		font-family: var(--font-family-3);
+		font-size: 0.875rem;
+		line-height: 1.5rem;
+		color: #4f4f4f;
+	}
+}
