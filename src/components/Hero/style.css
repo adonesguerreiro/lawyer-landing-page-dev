@@ -3,7 +3,7 @@
 	--new-font-family: "Plus Jakarta Sans", sans-serif;
 	--color-primary: #ffffff;
 	--hero-title-a-font-size: 1rem;
-	--color-text-span: #8b8c8c;
+	--color-text-span: #575757;
 }
 
 .new,
@@ -93,6 +93,11 @@
 		grid-template-columns: repeat(2, 1fr);
 		width: 1.875rem;
 		grid-gap: 1.875rem;
+
+		img {
+			width: 5.375rem;
+			height: 1.5rem;
+		}
 	}
 }
 
@@ -134,7 +139,7 @@
 			span {
 				font-family: var(--new-font-family);
 				font-size: var(--hero-title-a-font-size);
-				color: #87898c;
+				color: #525656;
 			}
 		}
 	}
