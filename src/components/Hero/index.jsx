@@ -1,11 +1,8 @@
 import "./style.css";
-import airbnblogo from "../../assets/images/Airbnb Logo.svg";
-import hubspotlogo from "../../assets/images/Hubspot Logo.svg";
-import microsoftlogo from "../../assets/images/Microsoft Logo.svg";
-import googlelogo from "../../assets/images/Google Logo.svg";
 import woman from "../../assets/images/Woman.svg";
 import ellipse1 from "../../assets/images/Ellipse 1.svg";
 import ellipse2 from "../../assets/images/Ellipse 2.svg";
+import { listDataHero } from "../data/listDataHero";
 
 export default function Hero() {
 	return (
@@ -27,22 +24,13 @@ export default function Hero() {
 						<div className="company">
 							<span>Trusted by 10+ companies in indonesia</span>
 							<figure>
-								<img
-									src={airbnblogo}
-									alt="Airbnb Logo"
-								/>
-								<img
-									src={hubspotlogo}
-									alt="Hubspot Logo"
-								/>
-								<img
-									src={microsoftlogo}
-									alt="Microsoft Logo"
-								/>
-								<img
-									src={googlelogo}
-									alt="Google Logo"
-								/>
+								{listDataHero.map((item, index) => (
+									<img
+										key={index}
+										src={item.logo}
+										alt={item.alt}
+									/>
+								))}
 							</figure>
 						</div>
 					</div>
@@ -63,7 +51,7 @@ export default function Hero() {
 								alt="Woman"
 							/>
 							<article className="name-professional">
-								<h3>Tiara Andini</h3>
+								<h2>Tiara Andini</h2>
 								<span>-Laywer</span>
 							</article>
 						</div>

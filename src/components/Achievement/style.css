@@ -55,6 +55,10 @@
 		border: 0.0625rem solid #ffffff;
 		transform: rotate(90deg);
 	}
+
+	.divider:last-child {
+		display: none;
+	}
 }
 
 .details {
@@ -70,5 +74,11 @@
 	p {
 		color: var(--color-primary);
 		font-family: var(--font-family-2);
+	}
+}
+
+@media (max-width: 768px) {
+	.achievement {
+		display: none;
 	}
 }

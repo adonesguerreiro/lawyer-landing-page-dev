@@ -70,6 +70,11 @@
 	display: flex;
 	align-items: center;
 	gap: 1rem;
+
+	img {
+		width: 3.5rem;
+		height: 3.5rem;
+	}
 }
 
 .person-details {
@@ -85,5 +90,29 @@
 		font-size: 0.875rem;
 		line-height: 1.5rem;
 		color: #4f4f4f;
+	}
+}
+
+@media (max-width: 768px) {
+	.testimonial {
+		padding: 2rem;
+		h1 {
+			text-align: initial;
+			margin-left: initial;
+			font-size: 2.1rem;
+			margin-bottom: 2rem;
+		}
+	}
+
+	.testimonials {
+		margin-left: initial;
+	}
+
+	.card {
+		width: auto;
+		height: auto;
+	}
+	.cards:nth-of-type(2) {
+		display: none;
 	}
 }

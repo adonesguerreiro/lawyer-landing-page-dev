@@ -13,7 +13,7 @@
 	justify-content: space-between;
 	height: 6.25rem;
 	padding: 0rem 9.0625rem 0rem 9.0625rem;
-	gap: 10px;
+	gap: 0.625rem;
 
 	ul {
 		display: flex;
@@ -47,4 +47,20 @@
 	display: flex;
 	justify-content: center;
 	width: 4.0625rem;
+}
+
+@media (max-width: 768px) {
+	.navbar-logo {
+		display: none;
+	}
+	.navbar {
+		justify-content: initial;
+		padding: initial;
+
+		ul {
+			padding: initial;
+			margin-left: 2rem;
+			gap: 1.5rem;
+		}
+	}
 }

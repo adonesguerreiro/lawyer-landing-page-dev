@@ -3,7 +3,7 @@
 	--new-font-family: "Plus Jakarta Sans", sans-serif;
 	--color-primary: #ffffff;
 	--hero-title-a-font-size: 1rem;
-	--color-text-span: #8b8d8d;
+	--color-text-span: #8b8c8c;
 }
 
 .new,
@@ -125,9 +125,9 @@
 			height: 7.125rem;
 			background-color: var(--color-primary);
 
-			h3 {
+			h2 {
 				font-family: var(--new-font-family);
-				font-size: 20px;
+				font-size: 1.25rem;
 				color: #33475b;
 			}
 
@@ -135,6 +135,37 @@
 				font-family: var(--new-font-family);
 				font-size: var(--hero-title-a-font-size);
 				color: #87898c;
+			}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.new {
+		margin: auto;
+		width: auto;
+
+		span {
+			width: 3.375rem;
+		}
+	}
+	.hero-image {
+		display: none;
+	}
+
+	.hero-title {
+		padding: initial;
+
+		.informations {
+			padding: 2rem;
+			h1 {
+				width: auto;
+				font-size: 3.625rem;
+				height: auto;
+			}
+
+			p {
+				width: -webkit-fill-available;
 			}
 		}
 	}

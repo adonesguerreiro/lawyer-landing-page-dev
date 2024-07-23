@@ -12,36 +12,70 @@ export default function Footer() {
 				<span>Lawliet</span>
 			</div>
 			<nav className="links">
-				<ul className="product">
-					<span>Product</span>
-					<div className="list-items">
-						<a href="#">Overview</a>
-						<a href="#">Features</a>
-						<a href="#">Tutorials</a>
-						<a href="#">Pricing</a>
-						<a href="#">Releases</a>
-					</div>
-				</ul>
-				<ul className="company-footer">
-					<span>Company</span>
-					<div className="list-items">
-						<a href="#">About</a>
-						<a href="#">Press</a>
-						<a href="#">Careers</a>
-						<a href="#">Contact</a>
-						<a href="#">Partners</a>
-					</div>
-				</ul>
-				<ul className="support">
-					<span>Support</span>
-					<div className="list-items">
-						<a href="#">Help Center</a>
-						<a href="#">Terms of service</a>
-						<a href="#">Legal</a>
-						<a href="#">Privacy Policy</a>
-						<a href="#">Status</a>
-					</div>
-				</ul>
+				<span>Product</span>
+				<div className="list-items">
+					<ul className="product">
+						<li>
+							<a href="#">Overview</a>
+						</li>
+						<li>
+							<a href="#">Features</a>
+						</li>
+						<li>
+							<a href="#">Tutorials</a>
+						</li>
+						<li>
+							<a href="#">Pricing</a>
+						</li>
+						<li>
+							<a href="#">Releases</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			<nav className="links">
+				<span>Company</span>
+				<div className="list-items">
+					<ul className="company-footer">
+						<li>
+							<a href="#">About</a>
+						</li>
+						<li>
+							<a href="#">Press</a>
+						</li>
+						<li>
+							<a href="#">Careers</a>
+						</li>
+						<li>
+							<a href="#">Contact</a>
+						</li>
+						<li>
+							<a href="#">Partners</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			<nav className="links">
+				<span>Support</span>
+				<div className="list-items">
+					<ul className="support">
+						<li>
+							<a href="#">Help Center</a>
+						</li>
+						<li>
+							<a href="#">Terms of service</a>
+						</li>
+						<li>
+							<a href="#">Legal</a>
+						</li>
+						<li>
+							<a href="#">Privacy Policy</a>
+						</li>
+						<li>
+							<a href="#">Status</a>
+						</li>
+					</ul>
+				</div>
 			</nav>
 		</footer>
 	);
