@@ -8,6 +8,7 @@ export default function Footer() {
 				<img
 					src={logo}
 					alt="logo"
+					loading="lazy"
 				/>
 				<span>Lawliet</span>
 			</div>

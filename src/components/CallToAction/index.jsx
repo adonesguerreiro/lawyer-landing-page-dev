@@ -16,6 +16,7 @@ export default function CallToAction() {
 					<img
 						src={call}
 						alt="Call"
+						loading="lazy"
 					/>
 					<a href="#">Call now</a>
 				</div>
@@ -25,6 +26,7 @@ export default function CallToAction() {
 					className="man"
 					src={man}
 					alt="man"
+					loading="lazy"
 				/>
 			</div>
 		</section>

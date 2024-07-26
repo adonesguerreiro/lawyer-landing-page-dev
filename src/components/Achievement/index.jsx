@@ -1,6 +1,5 @@
 import "./style.css";
 import background from "../../assets/images/BG.svg";
-import { listAchievementData } from "../data/listAchievementData";
 
 export default function Achievement() {
 	return (
@@ -8,22 +7,27 @@ export default function Achievement() {
 			<img
 				src={background}
 				alt="background"
+				loading="lazy"
 			/>
 			<div className="heading">
 				<h1>Some count that matters</h1>
 				<span>Our achievement in the journey depicted in numbers</span>
 				<div className="counts">
-					{listAchievementData.map((item, index) => (
-						<>
-							<div
-								key={index}
-								className="details">
-								<span>{item.title}</span>
-								<p>{item.description}</p>
-							</div>
-							<span className="divider" />
-						</>
-					))}
+					<div className="details">
+						<span>30</span>
+						<p>Clients</p>
+					</div>
+					<span className="divider" />
+					<div className="details">
+						<span>300</span>
+						<p>Taken business legalities</p>
+					</div>
+					<span className="divider" />
+					<div className="details">
+						<span>8</span>
+						<p>Years of Journey</p>
+					</div>
+					<span className="divider" />
 				</div>
 			</div>
 		</section>

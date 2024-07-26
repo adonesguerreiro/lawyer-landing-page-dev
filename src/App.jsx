@@ -4,6 +4,7 @@ import CallToAction from "./components/CallToAction";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import SubFooter from "./components/SubFooter";
 import Testimonial from "./components/Testimonial";
 import Why from "./components/Why";
 
@@ -17,6 +18,7 @@ function App() {
 			<Testimonial />
 			<CallToAction />
 			<Footer />
+			<SubFooter />
 		</main>
 	);
 }

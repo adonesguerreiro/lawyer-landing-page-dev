@@ -12,13 +12,14 @@ export default function Why() {
 				</span>
 			</div>
 			<article className="our-feature">
-				{listWhyData.map((item, index) => (
+				{listWhyData.map((item) => (
 					<div
-						key={index}
+						key={`why-${item.id}`}
 						className="feature">
 						<img
 							src={item.image}
 							alt={item.alt}
+							loading="lazy"
 						/>
 						<h2>{item.title}</h2>
 						<span>{item.description}</span>

@@ -20,6 +20,7 @@ export default function Testimonial() {
 						<img
 							src={photo}
 							alt="photo"
+							loading="lazy"
 						/>
 						<div className="person-details">
 							<h3>Anya Tailor Joy</h3>
@@ -41,6 +42,7 @@ export default function Testimonial() {
 						<img
 							src={photo}
 							alt="photo"
+							loading="lazy"
 						/>
 						<div className="person-details">
 							<h3>Sri Alam</h3>

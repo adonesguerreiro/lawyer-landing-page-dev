@@ -5,6 +5,7 @@ import UserArrows from "../../assets/images/User Arrows.svg";
 
 export const listWhyData = [
 	{
+		id: 1,
 		image: CircleLayer,
 		alt: "Circle Layer",
 		title: "Enviromental Law",
@@ -12,6 +13,7 @@ export const listWhyData = [
 			"Environmental legal issues might occur since the planned business activities are designed",
 	},
 	{
+		id: 2,
 		image: Bag,
 		alt: "Bag",
 		title: "Corporate and Commercial",
@@ -19,6 +21,7 @@ export const listWhyData = [
 			"We provide a complete range of services for the continuity of your business activities.",
 	},
 	{
+		id: 3,
 		image: Rocket,
 		alt: "Rocket",
 		title: "Information and Technology",
@@ -26,6 +29,7 @@ export const listWhyData = [
 			"IT not followed by the existing regulation which might cause legal uncertainty and business uncertainty.",
 	},
 	{
+		id: 4,
 		image: UserArrows,
 		alt: "User Arrows",
 		title: "Other Services",
